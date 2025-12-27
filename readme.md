@@ -157,7 +157,7 @@ The tracking inference is present in the output of the provided kaggle notebook 
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/seadronessee-yolo-sr.git
+git clone https://github.com/RameezAkther/SeaDronesSee-YOLO-SR-Maritime-Search-Rescue-with-Small-Object-Refinement.git
 cd seadronessee-yolo-sr
 pip install -r requirements.txt
 
