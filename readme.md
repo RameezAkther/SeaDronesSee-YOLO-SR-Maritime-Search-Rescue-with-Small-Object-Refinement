@@ -104,10 +104,10 @@ Our custom architecture and tracking pipeline achieved state-of-the-art results 
 
 | Metric          | Score      | Description                                          |
 | --------------- | ---------- | ---------------------------------------------------- |
-| **mAP @ 50**    | **0.8902** | Excellent detection of maritime objects.             |
-| **mAP @ 50-95** | **0.5437** | High localization accuracy for small targets.        |
-| **Precision**   | **0.9000** | Very low false positive rate (crucial for SAR).      |
-| **Recall**      | **0.8464** | Successfully retrieves ~85% of all distress targets. |
+| **mAP @ 50**    | **0.8959** | Excellent detection of maritime objects.             |
+| **mAP @ 50-95** | **0.5506** | High localization accuracy for small targets.        |
+| **Precision**   | **0.9146** | Very low false positive rate (crucial for SAR).      |
+| **Recall**      | **0.8724** | Successfully retrieves ~85% of all distress targets. |
 
 ![metric_plot](./results/results.png)
 
