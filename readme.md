@@ -34,6 +34,8 @@ Standard YOLO architectures downsample images aggressively, often losing feature
 - [[17], 1, Detect, [nc]]
 ```
 
+**Model Architecture Diagram**
+
 ![Model Architecture](./imgs/sr_yolo_architecture.png)
 
 #### Training Configuration
