@@ -76,11 +76,11 @@ To ensure dataset quality and practicality, we sampled specific video IDs that c
 
 Maritime environments suffer from specific noise: sun glare (reflections) and waves often resemble boats or debris. We extended **ByteTrack** with domain-specific filters.
 
-- **Sea Surface Reflection Filter:**
+**Sea Surface Reflection Filter:**
 - Standard trackers often accept any bounding box with high confidence.
 - **Novelty:** We enforce a **Geometric Constraint** pre-processing step. Detections with extreme aspect ratios—such as long horizontal glares (`> 3.0`) or thin vertical noise (`< 0.3`)—are rejected before tracking begins.
 
-- **Kinematic Confidence Scoring:**
+**Kinematic Confidence Scoring:**
 - Swimmers and life jackets are generally slow-moving or drifting targets relative to the drone.
 - **Novelty:** We implemented a **Speed-Aware Scoring** system. The tracker calculates the displacement vector for every tracklet. Objects exhibiting erratic, impossible speeds (characteristic of flickering sun glares) are penalized, while physically consistent tracks are boosted.
 
@@ -93,7 +93,7 @@ Maritime environments suffer from specific noise: sun glare (reflections) and wa
 
 ## 📊 Performance Metrics
 
-Our custom architecture and tracking pipeline achieved state-of-the-art results on the **SeaDronesSee-MOT** sampled dataset.
+Our custom architecture and tracking pipeline achieved better results on the **SeaDronesSee-MOT** sampled dataset.
 
 **Evaluation Notebooks:**
 
