@@ -86,6 +86,10 @@ Maritime environments suffer from specific noise: sun glare (reflections) and wa
 - Swimmers and life jackets are generally slow-moving or drifting targets relative to the drone.
 - **Novelty:** We implemented a **Speed-Aware Scoring** system. The tracker calculates the displacement vector for every tracklet. Objects exhibiting erratic, impossible speeds (characteristic of flickering sun glares) are penalized, while physically consistent tracks are boosted.
 
+**Tracker Architecture Diagram**
+
+![Tracker Architecture](./imgs/tracker.png)
+
 **Relevant Resources:**
 
 - 🎞️ **Video Conversion:** [SeaDronesSeeMOT-Dataset-Video-Conversion](https://www.kaggle.com/code/rameezakther314/seadronesseemot-dataset-video-conversion)
